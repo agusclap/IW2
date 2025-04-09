@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transferencia - Wibond</title>
+    <link rel="stylesheet" href="styles.css">
+    <body>
+        <div class ="flecha">
+            <img src="BASE.png" alt="Wibond Logo" class="flecha">
+        </div>
+        <div class="logo">
+            <img src="Logo(3).png" alt="Wibond Logo" class="logo">
+        </div>
+        <div style = "margin-top: 5px; margin-right: 5%; width: 110%">
+            <img src="Line7.png" alt="Wibond Logo" class="linea1">
+        </div>
+        <div style="margin-top: 5%; margin-left: 3%;">
+            <p class="transferencia">Transferir Dinero</p>
+        </div>
+        <div style = "display: flex; margin-top: 8%; margin-left: 25%; width: 50%;">
+            <img src="Stepper.png" class="stepper" alt="Stepper">
+        </div>
+        <div style="margin-top: 8%; margin-right: 5px;">
+            <img src="Card.png" alt="Wibond Logo" class="card">
+        </div>
+        <div class = "formulario" style = "align-content: center;">
+            <img src="Formulario.png" alt="Wibond Logo" class="formulario">
+                <form action="procesar.php" method="POST">
+                    <p style = "color:white; margin-top:-24%; font-weight:bold">Tipo de cuenta</p>
+                    <div style = "display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+                        <label for="Destinatario">Wibond</label>
+                        <input type="radio" id="destinatario" style="margin-right:30%" name="tipo_destino" value="destinatario_unico">
+                    </div>
+                    <div style = "margin-top: 5px; margin-right: 20%; width: 95%">
+                        <img src="Line7.png" alt="Wibond Logo" class="linea">
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+                        <label for = "destinatarios">Cuenta bancaria</label>
+                        <input type="radio" id="destinatarios" name="tipo_destino" value="multiple_destinarios">
+                    </div>
+                </form>
+        </div>
+        <div style="margin-top: 15%; margin-left: 5%;">
+            <img src="transfer.png" class="transfer" alt="Transfer">
+        </div>
+        <div class = "input-container">
+            <i class="icono"></i>
+            <input type="text" id="usuario" placeholder="Usuario, DNI, CUIT o CUIL">
+        </div>
+        <div style="display: flex; flex-direction: column; padding: 20px; border: 1px solid #ffffff; background-color: #ffffff;">
+            <button class="boton1">
+                <img src="Button.png" alt="Wibond Logo" style="height: 100%; width: 100%;">
+            </button>
+        </div>
+    </body>
+</html>
