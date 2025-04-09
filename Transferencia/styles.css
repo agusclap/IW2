@@ -1,0 +1,76 @@
+.flecha {
+    width: 30px;
+    height: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: end;
+    margin-top: -15px;
+    align-items: center;
+    img{
+        width: 35%;
+    }
+}
+
+.radio-container {
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+    left:10%;
+}
+
+.transferencia {
+    font-family: 'Montserrat', sans-serif;
+    font-size : 25px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: -20%;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+
+}
+input[type="radio"] {
+    margin-right: 100px;
+}
+
+.linea {
+    width: 95%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton {
+    background-color: #ffffff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 260px;
+}
+
