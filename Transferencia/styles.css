@@ -6,7 +6,7 @@
 .logo {
     display: flex;
     justify-content: end;
-    margin-top: -15px;
+    margin-top: -13px;
     align-items: center;
     img{
         width: 35%;
@@ -130,3 +130,56 @@ input[type="radio"] {
     justify-content: center;
     align-items: center;
 }
+
+.transferencia2 {
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-top: -220px;
+    margin-left: 33px;
+}
+
+.card-input-container {
+    background-image: url('CardCheck.png'); /* Usá el nombre de tu imagen acá */
+    background-size: cover;
+    background-color: #5252FF;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;           /* ajustá según tu diseño */
+    height: 180px;          /* ajustá según tu imagen */
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+.input-overlay {
+    background: transparent;
+    border: none;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    outline: none;
+    width: 300px;
+    justify-content: center;
+}
+
+.input-text {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-style: bold;
+}
+
