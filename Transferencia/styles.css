@@ -1,13 +1,14 @@
 .flecha {
     width: 30px;
     height: 30px;
+    margin-top: 0%;
 }
 
 .logo {
     display: flex;
     justify-content: end;
-    margin-top: -13px;
     align-items: center;
+    margin-top: -3%;
     img{
         width: 35%;
     }
@@ -25,7 +26,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size : 22px;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 form {
@@ -177,6 +178,9 @@ input[type="radio"] {
     font-size: 32px;
     height: 30px;
     box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .simbolo {
@@ -240,6 +244,7 @@ input[type="radio"] {
     
 }
 
+
 .impuesto-text {
     font-family: 'Lato', sans-serif;
     font-size: 12px;
@@ -264,4 +269,46 @@ input[type="radio"] {
     justify-content: space-between;
     display: flex;
     align-items: center;
+}
+
+.mensaje {
+    background-color: #C4C4C4;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 330px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.input-mensaje {
+    background-color: #C4C4C4;
+    border-radius: 12px;
+    border-color: #C4C4C4;
+    border: 1px solid #C4C4C4;
+    outline: none;
+    box-shadow: none;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    padding: 8px 12px;
+}
+
+.iconoMensaje {
+    margin-left: 110px;
+}
+
+.buttonNext {
+    background-color: white;
+    border: 1px solid #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 320px;
 }
