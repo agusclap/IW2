@@ -390,3 +390,16 @@ input[type="radio"] {
     margin-top: 2vh;
     margin-left: 2vh;
 }
+
+.labelImporte {
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1;
+    vertical-align: middle;
+    letter-spacing: 0%;
+    color: #4D4D4D;
+    margin-left: 2vh;
+    margin-top: 3vh;
+
+}
